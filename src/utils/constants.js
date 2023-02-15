@@ -11,6 +11,7 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import React from 'react';
 
 export const logo = "https://www.transparentpng.com/thumb/youtube-logo/transparent-youtube-logo-clipart-6.png";
 

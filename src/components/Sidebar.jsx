@@ -1,14 +1,15 @@
 import {Stack} from '@mui/material';
 import { categories } from '../utils/constants';
+import React from 'react';
 
 
 
 
-const Sidebar = ({selectedCategory ,setSelectedCategory}) => (
+const Categories = ({selectedCategory ,setSelectedCategory}) => (
     <Stack 
-    direction="raw"
+    direction="row"
     sx={{
-      overflow: "auto",
+      overflowY: "auto",
       height:{sx:'auto',md:'95%'},
       flexDirection:{md:'column'},
     }}>
@@ -26,7 +27,7 @@ const Sidebar = ({selectedCategory ,setSelectedCategory}) => (
       </button>
     ))}
     </Stack>
-  )
+  );
 
 
-export default Sidebar
+export default Categories;
